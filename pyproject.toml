@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmos3-uq"
+version = "0.1.0"
+description = "Training-free divergence uncertainty maps for Cosmos3 world models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.6",
+    "numpy",
+    "scipy",
+    "pillow",
+    "imageio",
+    "imageio-ffmpeg",
+    "av",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "sentencepiece",
+    "protobuf",
+    "einops",
+    "huggingface_hub",
+    "diffusers @ git+https://github.com/huggingface/diffusers.git@78405ec9a1c1637c4027136658c96b7e85f915e5",
+]
+
+[tool.setuptools]
+packages = ["cosmos3_uq"]

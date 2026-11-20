@@ -1,0 +1,32 @@
+[
+ {
+  "id": "av0_forward",
+  "image": "assets/av_0.jpg",
+  "actions": "assets/av_traj_forward.json",
+  "chunk_size": 20,
+  "fps": 10,
+  "domain": "av",
+  "resolution_tier": 480,
+  "seed": 0
+ },
+ {
+  "id": "av0_left",
+  "image": "assets/av_0.jpg",
+  "actions": "assets/av_traj_left.json",
+  "chunk_size": 20,
+  "fps": 10,
+  "domain": "av",
+  "resolution_tier": 480,
+  "seed": 0
+ },
+ {
+  "id": "av0_right",
+  "image": "assets/av_0.jpg",
+  "actions": "assets/av_traj_right.json",
+  "chunk_size": 20,
+  "fps": 10,
+  "domain": "av",
+  "resolution_tier": 480,
+  "seed": 0
+ }
+]

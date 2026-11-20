@@ -1,0 +1,29 @@
+# Results, data and third-party inputs stay local.
+outputs/
+data/
+third_party/
+examples/assets/
+*.npz
+*.npy
+*.mp4
+*.pt
+*.safetensors
+*.tar
+*.tar.gz
+*.zip
+*.pdf
+
+# Machine-, user- and session-specific agent files.
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/*.lock
+.env
+*.pass
+*-pass.md
+
+# Python.
+__pycache__/
+*.egg-info/
+.venv/
+build/
+dist/
